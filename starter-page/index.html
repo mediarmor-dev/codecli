@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CodeCLI - Your one-stop platform for tech and AI news, insights, and trends.">
+    <title>CodeCLI - Tech & AI Blog</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero .cta-btn {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .hero .cta-btn:hover {
+            background-color: #e64a19;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px 10px;
+            background-color: #f4f4f4;
+        }
+
+        .feature {
+            flex: 1 1 calc(33% - 20px);
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 0.9rem;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            background-color: #333333;
+            color: white;
+            padding: 20px 10px;
+        }
+
+        footer a {
+            color: #ff5722;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature {
+                flex-basis: calc(100% - 20px);
+                max-width: 400px; /* Optional to limit size */
+                margin-bottom: 20px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to CodeCLI</h1>
+        <p>Your one-stop platform for the latest in Tech & AI News</p>
+        <a href="#features" class="cta-btn">Explore Features</a>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="feature">
+            <h3>Latest Tech Trends</h3>
+            <p>Stay updated with cutting-edge advancements in technology and AI.</p>
+        </div>
+        
+        <div class="feature">
+            <h3>Expert Insights</h3>
+            <p>Learn from thought leaders in the tech world through in-depth articles.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Global Reach</h3>
+            <p>Discover stories and innovations from around the globe.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 CodeCLI. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
