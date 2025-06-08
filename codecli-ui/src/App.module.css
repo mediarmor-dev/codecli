@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background: #f8f9fb;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fb;
+  overflow-y: auto;
+}

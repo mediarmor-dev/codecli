@@ -1,0 +1,17 @@
+.homeContainer {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandSmall {
+    font-size: 1.08rem;
+    color: #a0a0a0;
+    letter-spacing: 0.08em;
+    margin-bottom: 28px;
+    font-family: monospace;
+    text-transform: lowercase;
+}
