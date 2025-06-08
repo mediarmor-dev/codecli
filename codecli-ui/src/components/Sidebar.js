@@ -1,13 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import styles from "./Sidebar.module.css";
-import logo from "../assets/images/logo.png"; // Adjust path to your logo file
+import logo from "../assets/images/logo.png"; // Adjust path as needed
 
 function Sidebar() {
     return (
         <aside className={styles.sidebar}>
             <div className={styles.logoContainer}>
-                <img src={logo} alt="codecli logo" className={styles.logo} />
+                <Link to="/">
+                    <img src={logo} alt="codecli logo" className={styles.logo} />
+                </Link>
             </div>
             <nav className={styles.menu}>
                 <NavLink

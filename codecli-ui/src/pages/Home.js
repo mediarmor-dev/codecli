@@ -8,8 +8,8 @@ function Home() {
 
     return (
         <div className={styles.homeContainer}>
-            <div className={styles.brandSmall}>codecli</div>
-            <MainInput inputRef={inputRef} />
+            <div className={styles.textAboveInput}>codecli</div>
+            <MainInput />
         </div>
     );
 }
